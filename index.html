@@ -2,47 +2,72 @@
 <html>
 <head>
 
-<title>Kevin's Kwiz!</title>
-<link href ="style.css" rel ="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-<script src = "main.js"></script>
+  <title>Java Quiz</title>
+  <link href ="style.css" rel ="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+  <script src = "main.js"></script>
 
-</head>
-
-
-<body>
-<h1>This is best quiz on the internet!</h1>
+  </head>
 
 
-<form id = "quiz" name = "quiz">
+  <body>
+  <h1>Janasia's Java Quiz</h1>
 
 
-<p class = "questions">What is the capital of Rhode Island?</p>
-<input id = "textbox" type = "text" name = "question1">
-
-<p class = "questions">What is the capital of Connecticut?</p>
-<input type = "radio" id = "mc" name = "question2" value = "Hartford"> Hartford<br>
-<input type = "radio" id = "mc" name = "question2" value = "Heartford"> Heartford<br>
-
-<p class = "questions">What is the capital of New York?</p>
-
-<input type = "radio" id = "mc" name = "question3" value = "Albany"> Albany<br>
-<input type = "radio" id = "mc" name = "question3" value = "All Benny's"> All Benny's<br>
+  <form id = "quiz" name = "quiz">
 
 
-<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+    <p class = "questions">In ruby what are decisions made with?</p>
+    <input type = "radio" id = "mc" name = "question1" value = "If statments"> If statments<br>
+    <input type = "radio" id = "mc" name = "question1" value = "Else statments"> Else statments<br>
 
+    <p class = "questions">The Config File or folder is used often in _____ as the initial file that tells the preferences of the operating system itself.</p>
+    <input type = "radio" id = "mc" name = "question2" value = "Web server systems"> Web server systems<br>
+    <input type = "radio" id = "mc" name = "questions2" value = "Operating systems"> Operating systems<br>
 
-</form>
+    <p class = "questions">Why is Hash important?</p>
+    <input type = "radio" id = "mc" name = "question3" value = "Hash helps Ruby to run better"> Hash helps Ruby to run better<br>
+    <input type = "radio" id = "mc" name = "question3" value = "Hash stores keys which creates representation of data"> Hash stored keys which creates representation of data.<br>
 
-<div id = "after_submit">
-<p id = "number_correct"></p>
-<p id = "message"></p>
-<img id = "picture">
-</div>
-</html>
+    <p class = " questions">How do you clone a respository on GitHub?</p>
+    <input type = "radio" id = "mc" name = "question4" value="Click button that says download"> Click button that says clone<br>
+    <input type = "radio" id = "mc" name = "question4" value="Right click to clone"> Right click to clone<br>
 
-</body>
+    <p class = "questions">How do you create an Hash in rails?</p>
+    <input type = "radio" id = "mc" name = "question5" value = "new_hash"> new_hash=<br>
+    <input type = "radio" id = "mc" name = "question5" value = "newhash="> newhash=<br>
 
+    <p class = "questions">A gem is a collection of Ruby code that we can extract into a collection.</p>
+    <input type = "radio" id = "mc" name = "question6" value = "True"> True<br>
+    <input type = "radio" id = "mc" name = "question6" value = "False"> False<br>
 
+    <p class = "questions">Jbuilder gives you a simple DSL for declaring JSON stuctures that beats manipulating giant hash structures.</p>
+    <input type = "radio" id = "mc" name = "question7" value = "True"> True<br>
+    <input type = "radio" id = "mc" name = "question7" value = "False"> False<br>
 
+    <p class = "questions">The db stores all data from a computer.</p>
+    <input type = "radio" id = "mc" name = "question8" value = "True"> True<br>
+    <input type = "radio" id = "mc" name = "question8" value = "False"> False<br>
+
+    <p class = "questions">Array is created by combining values and enclosing [the] list with square brackets.</p>
+    <input type = "radio" id = "mc" name = "question9" value = "True"> True<br>
+    <input type = "radio" id = "mc" name = "question9" value = "False"> False<br>
+
+    <p class = "questions">What will move the last item on an array in rails?</p>
+    <input type = "radio" id = "mc" name = "question10" value = "The.pop"> The.pop<br>
+    <input type = "radio" id = "mc" name = "question10" value = ".delete(2)"> .delete(2)<br>
+
+    <input id = "button" type = "button" value = "I'm done" onclick = "check();">
+
+    </form>
+
+    <div id = "after_submit">
+    <p id = "number_correct"></p>
+    <p id = "message"></p>
+    <img id = "picture">
+    </div>
+    </html>
+
+    </<body>
+
+    </body>
